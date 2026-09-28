@@ -1,14 +1,32 @@
 {
- "tab_pattern_ignores_a": null,
- "tab_pattern_ignores_tab": null,
- "negated_keep_ignored": null,
- "negated_other_ignored": null,
- "inner_slash_rooted": null,
- "dir_only_itself": null,
- "case_default_insensitive": null,
- "array_input_works": null,
- "strict_relative": null,
- "regex_constants": [],
- "class_names": [],
- "export_keys": []
+ "tab_pattern_ignores_a": false,
+ "tab_pattern_ignores_tab": true,
+ "negated_keep_ignored": false,
+ "negated_other_ignored": true,
+ "inner_slash_rooted": false,
+ "dir_only_itself": false,
+ "case_default_insensitive": true,
+ "array_input_works": true,
+ "strict_relative": "抛错",
+ "regex_constants": [
+  "REGEX_LITERAL_SPECIAL",
+  "REGEX_TEST_BLANK_LINE",
+  "REGEX_INVALID_TRAILING_BACKSLASH",
+  "REGEX_REPLACE_LEADING_EXCAPED_EXCLAMATION",
+  "REGEX_REPLACE_LEADING_EXCAPED_HASH",
+  "REGEX_SPLITALL_CRLF",
+  "REGEX_RESTORE_PLACEHOLDER",
+  "REGEX_INNER_SLASH",
+  "REGEX_REPLACE_TRAILING_WILDCARD",
+  "REGEX_TEST_WINDOWS_PATH_ABSOLUTE"
+ ],
+ "class_names": [
+  "IgnoreRule",
+  "RuleManager",
+  "Ignore"
+ ],
+ "export_keys": [
+  "default",
+  "isPathValid"
+ ]
 }
