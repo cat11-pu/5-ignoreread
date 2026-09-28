@@ -1,0 +1,14 @@
+{
+ "tab_pattern_ignores_a": null,
+ "tab_pattern_ignores_tab": null,
+ "negated_keep_ignored": null,
+ "negated_other_ignored": null,
+ "inner_slash_rooted": null,
+ "dir_only_itself": null,
+ "case_default_insensitive": null,
+ "array_input_works": null,
+ "strict_relative": null,
+ "regex_constants": [],
+ "class_names": [],
+ "export_keys": []
+}
